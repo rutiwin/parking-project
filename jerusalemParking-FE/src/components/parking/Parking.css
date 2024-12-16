@@ -1,0 +1,13 @@
+.parking-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parking-card {
+    flex: 0 1 calc(25% - 12.5px); /* Approximately 5 cards per row */
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
